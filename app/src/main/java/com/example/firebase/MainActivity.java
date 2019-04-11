@@ -115,7 +115,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-
         switch (v.getId()){
             case R.id.login:
                 // Statement program untuk login/masuk
@@ -181,11 +180,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             }
                         });
                 break;
-
-            case R.id.showdata:
-                startActivity(new Intent(MainActivity.this, MyListData.class));
-                break;
-
         }
     }
 }
